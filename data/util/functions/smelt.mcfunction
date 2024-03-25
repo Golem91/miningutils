@@ -1,0 +1,1 @@
+execute as @e[type=item,sort=nearest,nbt={PickupDelay:10s,OnGround:0b}] run item modify entity @s container.0 util:smelt

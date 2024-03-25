@@ -1,0 +1,1 @@
+$summon experience_orb ~ ~ ~ {Health:5s,Count:$(count),Value:$(value)}
