@@ -1,0 +1,41 @@
+[
+  {
+    "condition": "minecraft:any_of",
+    "terms": [
+        {"condition": "minecraft:entity_scores","entity": "this","scores": {"use.netherite.pickaxe": {"min": 1}}},
+        {"condition": "minecraft:entity_scores","entity": "this","scores": {"use.diamond.pickaxe": {"min": 1}}},
+        {"condition": "minecraft:entity_scores","entity": "this","scores": {"use.golden.pickaxe": {"min": 1}}},
+        {"condition": "minecraft:entity_scores","entity": "this","scores": {"use.iron.pickaxe": {"min": 1}}},
+        {"condition": "minecraft:entity_scores","entity": "this","scores": {"use.stone.pickaxe": {"min": 1}}},
+        {"condition": "minecraft:entity_scores","entity": "this","scores": {"use.wooden.pickaxe": {"min": 1}}},
+        {"condition": "minecraft:entity_scores","entity": "this","scores": {"use.netherite.axe": {"min": 1}}},
+        {"condition": "minecraft:entity_scores","entity": "this","scores": {"use.diamond.axe": {"min": 1}}},
+        {"condition": "minecraft:entity_scores","entity": "this","scores": {"use.golden.axe": {"min": 1}}},
+        {"condition": "minecraft:entity_scores","entity": "this","scores": {"use.iron.axe": {"min": 1}}},
+        {"condition": "minecraft:entity_scores","entity": "this","scores": {"use.stone.axe": {"min": 1}}},
+        {"condition": "minecraft:entity_scores","entity": "this","scores": {"use.wooden.axe": {"min": 1}}},
+        {"condition": "minecraft:entity_scores","entity": "this","scores": {"use.netherite.shovel": {"min": 1}}},
+        {"condition": "minecraft:entity_scores","entity": "this","scores": {"use.diamond.shovel": {"min": 1}}},
+        {"condition": "minecraft:entity_scores","entity": "this","scores": {"use.golden.shovel": {"min": 1}}},
+        {"condition": "minecraft:entity_scores","entity": "this","scores": {"use.iron.shovel": {"min": 1}}},
+        {"condition": "minecraft:entity_scores","entity": "this","scores": {"use.stone.shovel": {"min": 1}}},
+        {"condition": "minecraft:entity_scores","entity": "this","scores": {"use.wooden.shovel": {"min": 1}}}
+    ]
+  },
+  {
+    "condition": "minecraft:entity_properties",
+    "entity": "this",
+    "predicate": {
+      "equipment": {
+        "mainhand": {
+          "predicates": {
+            "minecraft:custom_data": "{enchantments:[{id:\"veinmine\"}]}"
+          }
+        }
+      },
+      "flags": {
+        "is_sneaking": true
+      }
+    }
+  }
+]

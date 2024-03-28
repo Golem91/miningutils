@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "/B/",
+    "/G/",
+    "/I/"
+  ],
+  "key": {
+    "/": {
+      "item": "minecraft:blaze_rod"
+    },
+    "B": {
+      "item": "minecraft:book"
+    },
+    "G": {
+      "item": "minecraft:blast_furnace"
+    },
+    "I": {
+      "item": "minecraft:iron_pickaxe"
+    }
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "count": 1,
+    "components": {
+      "minecraft:lore": [
+        "{\"text\":\"Smelting Touch\",\"color\":\"gray\",\"italic\":false}"
+      ],
+      "minecraft:custom_data": {"smelting_touch":true}
+    }
+  }
+}

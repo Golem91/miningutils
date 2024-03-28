@@ -1,0 +1,17 @@
+{
+  "condition": "minecraft:any_of",
+  "terms": [
+    {
+      "condition": "minecraft:reference",
+      "name": "util:enchant/veinmine"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "util:enchant/smelting_touch"
+    },
+    {
+      "condition": "minecraft:reference",
+      "name": "util:enchant/telekinesis"
+    }
+  ]
+}

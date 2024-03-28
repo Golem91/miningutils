@@ -6,7 +6,8 @@
       "mainhand": {
         "items": [
           "minecraft:netherite_pickaxe",
-          "minecraft:netherite_axe"
+          "minecraft:netherite_axe",
+          "minecraft:netherite_shovel"
         ]
       }
     }

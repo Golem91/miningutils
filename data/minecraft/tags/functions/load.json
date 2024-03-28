@@ -1,6 +1,5 @@
 {
   "values":[
-	"util:setup",
-  "util:numbers"
+	"util:setup"
   ]
 }

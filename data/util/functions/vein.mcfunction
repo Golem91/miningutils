@@ -33,6 +33,9 @@ execute if data storage util:store {block:"minecraft:deepslate_gold_ore"} run da
 execute if data storage util:store {block:"minecraft:deepslate_coal_ore"} run data modify storage util:store block set value "#minecraft:coal_ores"
 execute if data storage util:store {block:"minecraft:deepslate_redstone_ore"} run data modify storage util:store block set value "#minecraft:redstone_ores"
 
+#gravel exception
+execute if data storage util:store {block:"minecraft:flint"} run data modify storage util:store block set value "minecraft:gravel"
+
 #tellraw @a {"nbt":"block","storage":"util:store","interpret": false}
 
 execute at @e[type=item,sort=nearest,limit=1,nbt={PickupDelay:10s,OnGround:0b}] align xyz run function util:mine with storage util:store 

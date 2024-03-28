@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "III",
+    "IBI",
+    "R/R"
+  ],
+  "key": {
+    "/": {
+      "item": "minecraft:blaze_rod"
+    },
+    "B": {
+      "item": "minecraft:book"
+    },
+    "R": {
+      "item": "minecraft:redstone"
+    },
+    "I": {
+      "item": "minecraft:iron_block"
+    }
+  },
+  "result": {
+    "id": "minecraft:enchanted_book",
+    "count": 1,
+    "components": {
+      "minecraft:lore": [
+        "{\"text\":\"Excavation\",\"color\":\"gray\",\"italic\":false}"
+      ],
+      "minecraft:custom_data": {"veinmine":true}
+    }
+  }
+}

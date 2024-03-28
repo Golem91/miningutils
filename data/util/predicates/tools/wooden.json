@@ -6,7 +6,8 @@
       "mainhand": {
         "items": [
           "minecraft:wooden_pickaxe",
-          "minecraft:wooden_axe"
+          "minecraft:wooden_axe",
+          "minecraft:wooden_shovel"
         ]
       }
     }
